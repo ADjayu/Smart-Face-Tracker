@@ -1,17 +1,19 @@
-# FaceRecognition
+# Smart-Face-Tracker
 
-Machine Learning project to recognise people from an Image just like facebook.
+A real-world project which Tracks the human face and stores the data of co-ordinates.
 
-Built with the help of [dlib's](http://dlib.net/) state-of-the-art face recognition built with deep learning.
-The model has an accuracy of 99.38% on the [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/) benchmark.
+Built by integrating hardware and software technologies together.
 
 ## Dependencies:
 
-- Python 3.x
-- Numpy
-- Scipy
-- [Scikit-learn](http://scikit-learn.org/stable/install.html)
-- [dlib](http://dlib.net/)
+- [Python](https://www.python.org/doc/essays/blurb/) (for Detection)
+- [OpenCV](https://opencv.org/about/) (for Tracking)
+- [Arduino Sketch](https://docs.arduino.cc/learn/programming/sketches) (written in C++ to handle the arduino board)
+- [Servo.h](https://www.arduino.cc/reference/en/libraries/servo/) (to control servo motors)
+- [Haar Cascade](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html) algorithm (for object detection and collecting readings)
+- [Arduino UNO](https://docs.arduino.cc/hardware/uno-rev3) (for integrating harware into software)
+- Breadboard (for prototyping)
+- WebCam
 
     Tip: Installing dlib can be a tedious job. On macOS or Linux you may follow [this link](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf).
 
